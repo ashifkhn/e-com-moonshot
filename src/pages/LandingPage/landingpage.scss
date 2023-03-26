@@ -1,0 +1,38 @@
+.landing-page-container {
+    height: 100%;
+    background-color: #f6f4f5;
+    // background-image: url("./../.././assets//landing-page//brooke-lark-W1B2LpQOBxA-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    // opacity: 0.1;
+
+    header {
+        height: 20%;
+    }
+
+    .shop-now {
+        display: flex;
+        height: 70%;
+        align-items: center;
+        justify-content: center;
+
+        .shop-now-text {
+            font-size: 1.2rem;
+            border: 0.2rem solid #883743;
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            background-color: #883743;
+            color: #f6f4f5;
+        }
+
+        .shop-now-text:hover {
+            border: 0.2rem solid #2c2c2d;
+            border-radius: 2rem;
+            background-color: #f6f4f5;
+            color: #f6f4f5;
+            transition: 0.5s linear;
+            color: #883743;
+            cursor: pointer;
+        }
+    }
+}
